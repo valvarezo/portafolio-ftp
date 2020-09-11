@@ -11,6 +11,7 @@ LABEL Description="vsftpd Docker image based on Centos 7. Supports passive mode 
 
 RUN yum -y update && yum clean all
 RUN yum install -y \
+	initscripts \
 	vsftpd \
 	db4-utils \
 	db4 \
