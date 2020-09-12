@@ -1,4 +1,4 @@
-FROM centos:7
+FROM valvarezo/systemdcentos
 
 ARG USER_ID=14
 ARG GROUP_ID=50
@@ -46,4 +46,4 @@ VOLUME /var/log/vsftpd
 
 EXPOSE 20 21
 
-CMD ["/usr/sbin/run-vsftpd.sh"]
+CMD ["/usr/sbin/init"]
