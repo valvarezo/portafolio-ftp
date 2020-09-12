@@ -1,4 +1,4 @@
-FROM centos:7
+FROM valvarezo/systemdcentos
 
 ARG USER_ID=14
 ARG GROUP_ID=50
