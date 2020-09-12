@@ -46,4 +46,4 @@ VOLUME /var/log/vsftpd
 
 EXPOSE 20 21
 
-CMD ["/usr/sbin/init"]
+CMD ["/usr/sbin/run-vsftpd.sh"]
